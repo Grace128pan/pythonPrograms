@@ -31,6 +31,19 @@ inside the main function, we can use global variables that are used in several o
 2) if there is an assignment statement for a variable in the function, then the variable is local; if the variable is not assigned in the function, then the variable is global
 3) if the name of the variable in a function has the same name as a global variable and the function does assign the variabel a value, then the value is a local variable
 4)if there is not a global variable with the same name as the variable in the function, then the variable is local
+
+data structures and 2D lists
+1. two or more mimensional lists is a multidimensional list
+2.the game loop
+1)handle the events
+2)update the game state
+3)draw the game state to the screen
+
+3. our drawing functions only draw on the in-memory display surface object, we can call
+pygame.display.update() to draw the display surface object to the screen
+
+4. syntactic sugar: write easier to read code
+
 '''
 
 import random, pygame, sys
